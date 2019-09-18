@@ -1,5 +1,11 @@
 export const portfolio = [
     {
+      title: "Previous-Portfolio",
+      type:"Frontend",
+      description: "A website written in react js, gatsby and quering of data using graphql, This is my previous portfolio ",
+      site:"https://vmuthabuku.netlify.com/"
+    },
+    {
         title: "Movie-Search",
         type:"Frontend",
         description: "A website written in react js and redux you can search a movie of your choice consumes tmdb-api",
