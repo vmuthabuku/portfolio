@@ -1,24 +1,18 @@
 export const portfolio = [
     {
-      title: "Previous-Portfolio",
-      type:"Frontend",
-      description: "A website written in react js, gatsby and quering of data using graphql, This is my previous portfolio ",
-      site:"https://vmuthabuku.netlify.com/"
-    },
-    {
         title: "Movie-Search",
         type:"Frontend",
         description: "A website written in react js and redux you can search a movie of your choice consumes tmdb-api",
         site:"https://vmuthabuku-movie-search.netlify.com/"
       },
     {
-        title: "inventory-manager",
+        title: "Inventory-manager",
         type:"Backend + Frontend",
         description: "A website written in node js for backend and react and redux for front-end ",
         site: "https://github.com/vmuthabuku/inventory-manager"
       },
       {
-        title: "github-miniclone",
+        title: "Github-miniclone",
         type:"Frontend",
         description: "A website that consumes the open graphql github-api,uses graphql, react apollo and react",
         site:"https://github-miniclone.netlify.com/"
@@ -37,7 +31,7 @@ export const portfolio = [
         site: "https://github.com/vmuthabuku/Game-Review"
       },
       {
-        title: "to-do-list",
+        title: "To-do-list",
         type:"Frontend",
         description: "A simple to-do-app written in react js ",
         sourcecodeurl: "https://github.com/vmuthabuku/to-do-list",

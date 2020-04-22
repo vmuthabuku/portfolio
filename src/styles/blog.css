@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.header {
+    margin-top: 1em;
+    font-family: 'Anton', sans-serif;
+}
+
+.author {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+.author p {
+    padding-left: 20px;
+}
+
+
+/* .cardy .cardy_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+} */

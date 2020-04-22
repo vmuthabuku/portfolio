@@ -3,16 +3,17 @@ import React from "react"
 
 import Header from "../components/header"
 import Cardy from '../components/Cards/cardy'
-import '../styles/global.css'
+// import '../styles/global.css'
 import { portfolio } from '../projectss'
+import { Container } from 'semantic-ui-react'
 
 const Projects = () =>(
     <Header>
-    <div className="cardds" >
+     <Container text >
                 {portfolio.map((project, i) => (
                 <Cardy project={project} key={i} />
         ))}
-      </div>
+       </Container>
         
     </Header>
 )

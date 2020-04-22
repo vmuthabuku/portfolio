@@ -7,9 +7,9 @@ const Home = () => (
     <>
     <Container text>
     <div className="profile">
-    <div className="card 1">
-    <div className="card_image"> <img src={require ('../images/me.jpg')} alt="none"/> </div>
-    <div className="card_title title-white">
+    <div className="cardy 1">
+    <div className="cardy_image"> <img src={require ('../images/me.jpg')} alt="none"/> </div>
+    <div className="cardy_title title-white">
     </div>
     </div>
     <div className="about">
@@ -37,24 +37,6 @@ const Home = () => (
     </div>
     </Container>
     
-
-     <div className="cards-list">  
-  <div className="card 1">
-    <div className="card_image"> <img src="https://cdn.pixabay.com/photo/2017/08/26/23/37/business-2684758_960_720.png" alt="none"/> </div>
-    <div className="card_title title-white">
-      <p><span style={{color:"black"}}>Projects</span></p>
-    </div>
-  </div>
-  
-    <div className="card 2">
-    <div className="card_image">
-      <img src="https://cdn.pixabay.com/photo/2018/05/04/15/37/writing-3374234__340.jpg" alt="none" />
-      </div>
-    <div class="card_title title-white">
-      <p>Blog</p>
-    </div>
-  </div>  
-  </div>
   <Segment vertical>
           <Container textAlign='center'>
          <List style={{color:"grey"}} horizontal link size='huge'>
