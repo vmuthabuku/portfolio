@@ -1,4 +1,20 @@
 export const portfolio = [
+  {
+    title: "Furniture E-commerce",
+    type:"Frontend -in progress",
+    description: "A practise E-commerce application",
+    sourcecodeurl: "https://github.com/vmuthabuku/e-commerce",
+    site:"https://vibrant-raman-ca060b.netlify.app/",
+
+},
+{
+    title: "Infinite scroll",
+    type:"Frontend",
+    description: "A simple frontend view to demo infinite scrolling",
+    sourcecodeurl: "https://github.com/vmuthabuku/react-infinite-scroll",
+    site:"https://compassionate-darwin-d76efa.netlify.app/",
+  
+},
 {
     title: "Tinder-Clone",
     type:"Frontend",
