@@ -22,13 +22,11 @@ const Home = () => (
     <div className="proficiency">
     <p className="heaad">About Me:</p>
     <ul>
-        <li><Icon name="pointing right" color="violet"/>:  Html, Css, Responsive design, css frameworks(Material-ui, Sematic-ui, styled components, bootsrap) </li>
-        <li><Icon name="pointing right" color="violet"/>:  Reactjs, React-redux, React-Apollo for graphql </li>
-        <li><Icon name="pointing right" color="violet"/>:  Python flask</li>
-        <li><Icon name="pointing right" color="violet"/>:  node-js</li>
+        <li><Icon name="pointing right" color="violet"/>:  Html, Css, Responsive design, css frameworks(Material-ui, Sematic-ui, styled components, bootsrap,Bulma, Tailwind css) </li>
+        <li><Icon name="pointing right" color="violet"/>:  Javascript(node-js, Reactjs, React-redux, React-Apollo for graphql) </li>
         <li><Icon name="pointing right" color="violet"/>:  Databases----> MongoDb & PostgresDb</li>
-        <li><Icon name="pointing right" color="violet"/>:  GraphQl</li>
-        <li><Icon name="pointing right" color="violet"/>:  Basic dev-ops operations and basic knowledge of docker and kubernetes</li>
+        <li><Icon name="pointing right" color="violet"/>:  Golang</li>
+        <li><Icon name="pointing right" color="violet"/>:  Aws(Lambda, SNS, EC2, S3)</li>
     </ul>
 
     </div>

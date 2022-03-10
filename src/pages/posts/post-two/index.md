@@ -10,10 +10,10 @@ Pointers in golang gave me a hard time understanding them, for me that has been 
 A **Pointer** is a variable which is used to store the memory address of another variable.
 
 **Operators**
-Pointers comprise of two operators `*` and `&`. The `*` is used to *dereference* pointer variables, it is also used to represent/show that a variable is a pointer by putting it before the type of variable stored.
-eg ``var length *int = 2`` .
-The ``&`` is used to access the address of the variable and not the value. It is added before the variable.
-Here is a simple example on how to declare, dereference,  get a variable's address and update a variable
+Pointers comprise of two operators `*` and `&`. The `*` is used to _dereference_ pointer variables, it is also used to represent/show that a variable is a pointer by putting it before the type of variable stored.
+eg `var length *int = 2` .
+The `&` is used to access the address of the variable and not the value. It is added before the variable.
+Here is a simple example on how to declare, dereference, get a variable's address and update a variable
 
 ```go
 // declare length of variable
@@ -33,9 +33,9 @@ fmt.Println("*pointer dereferenced", *width)
 fmt.Println("*length value", length)
 ```
 
-**Note** After changing the pointer value i.e width, the value of the length also changes since they are in the same address,  This is one of the reasons why you should use a pointer instead of a value, i.e if you want to make a change to a variable or update it and make it "persist".
+**Note** After changing the pointer value i.e width, the value of the length also changes since they are in the same address, This is one of the reasons why you should use a pointer instead of a value, i.e if you want to make a change to a variable or update it and make it "persist".
 
-**Example:** 
+**Example:**
 When passing an argument by value:
 
 ```go
@@ -51,6 +51,7 @@ fmt.Println(x) // x is still 5
 ```
 
 When passing an argument using pointers.
+
 ```go
 func  length(x *int) {
 *x =  12
@@ -67,10 +68,10 @@ From this I hope you have a brief understanding on the use of pointers.
 
 If you want to read more on pointers you can check out the following links.
 
-[GopherConUk]([https://www.youtube.com/watch?v=yEiaCx0fR9k](https://www.youtube.com/watch?v=yEiaCx0fR9k))
+[GopherConUk](<[https://www.youtube.com/watch?v=yEiaCx0fR9k](https://www.youtube.com/watch?v=yEiaCx0fR9k)>)
 
-[golang-book]([http://www.golang-book.com/books/intro/8](http://www.golang-book.com/books/intro/8))
+[golang-book](<[http://www.golang-book.com/books/intro/8](http://www.golang-book.com/books/intro/8)>)
 
-[gopher-guides]([https://www.digitalocean.com/community/conceptual_articles/understanding-pointers-in-go](https://www.digitalocean.com/community/conceptual_articles/understanding-pointers-in-go))
+[gopher-guides](<[https://www.digitalocean.com/community/conceptual_articles/understanding-pointers-in-go](https://www.digitalocean.com/community/conceptual_articles/understanding-pointers-in-go)>)
 
 Originally published on [Dev](https://dev.to/vmuthabuku/pointers-in-go-53kj)
